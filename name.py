@@ -11,7 +11,7 @@ worksheet = workbook.add_worksheet()
 line_count = 0
 
 
-file = open('name.txt','r')
+file = open('name_421.txt','r')
 
 for f in file:
     data = f
@@ -19,9 +19,8 @@ for f in file:
 
     data = data.split('===')
 
-    zipcode = data[0]
-    id = data[1]
-    doctorname = data[2]
+    id = data[0]
+    doctorname = data[1]
 
     url = "https://www.aligntech.es/Profile/Details/" + str(doctorname) + "/" +  str(id) +"?locale=es"
 

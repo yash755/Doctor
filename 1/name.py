@@ -11,7 +11,7 @@ worksheet = workbook.add_worksheet()
 line_count = 0
 
 
-file = open('name.txt','r')
+file = open('nam2.txt','r')
 
 for f in file:
     data = f
